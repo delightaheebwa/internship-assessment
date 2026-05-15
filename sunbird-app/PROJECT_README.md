@@ -83,13 +83,13 @@ Reference file: `sunbird-app/.env.example`
 **1) Input stage (text mode selected; user enters source text and target language before running pipeline):**  
 ![Input stage](https://github.com/user-attachments/assets/a880bc28-8f78-446e-952d-41469f68a5e5)
 
-**2) Intermediate output stage (pipeline running and showing generated text results):**  
+**2) Selecting language stage (user selects the target language in which he or she wants the translation.):**  
 ![Intermediate text outputs](https://github.com/user-attachments/assets/ab49a9ea-e168-4b89-b086-ec371d7ba4ba)
 
-**3) Translation stage complete (translated summary displayed in selected local language):**  
+**3) Intermediate stage (the pipeline is running and processing the user's input):**  
 ![Translated summary output](https://github.com/user-attachments/assets/4de5ee0f-2f9e-40d5-967a-c22eb69ee395)
 
-**4) Final output stage (TTS generated audio ready for playback in the UI):**  
+**4) Final output stage (Summary, Translated Summary, and TTS generated audio ready for playback in the UI):**  
 ![Final audio output](https://github.com/user-attachments/assets/5d3ce6fc-cd9a-4ed5-a30e-30981b6885cd)
 
 ## Deployed link
