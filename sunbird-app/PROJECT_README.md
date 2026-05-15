@@ -32,6 +32,12 @@ cd sunbird-app
 cp .env.example .env
 ```
 
+Windows (PowerShell) activation command:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
 Then open `.env` and replace the placeholder token with your real Sunbird token:
 
 ```env
