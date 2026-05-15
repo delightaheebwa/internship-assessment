@@ -23,10 +23,10 @@ LocGen is a Streamlit web app that accepts either English text or an English WAV
 Run the following from your terminal exactly as shown:
 
 ```bash
-git clone https://github.com/delightaheebwa/internship-assessment.git
+git clone https://github.com/<your-username>/internship-assessment.git
 cd internship-assessment
-python -m venv .venv
-source .venv/bin/activate
+python -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 cd sunbird-app
 cp .env.example .env
@@ -35,7 +35,7 @@ cp .env.example .env
 Windows (PowerShell) activation command:
 
 ```powershell
-.venv\Scripts\Activate.ps1
+venv\Scripts\Activate.ps1
 ```
 
 Then open `.env` and replace the placeholder token with your real Sunbird token:
